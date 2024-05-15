@@ -1,0 +1,14 @@
+devices: devices
+
+modules:
+
+- sparkplug:
+    mqttBrokerAddress: localhost
+    mqttBrokerPort: 1883
+
+- shdr-adapter: # - Add SHDR Adapter module for Device = Okuma and Port = 7878
+    deviceKey: Okuma
+    port: 7878
+    heartbeat: 1000
+    reconnectInterval: 1000
+    connectionTimeout: 1000
