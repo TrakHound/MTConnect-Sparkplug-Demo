@@ -1,4 +1,4 @@
-# MTConnect-Sparkplug-Demo
+# MTConnect-Sparkplug-Example
 This is a simple demo of sending flat MTConnect observation data using SparkplugB designed as an Agent Module for MTConnect.NET
 
 ## DotNet Template
