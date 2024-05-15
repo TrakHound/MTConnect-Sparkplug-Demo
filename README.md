@@ -1,9 +1,15 @@
 # MTConnect-Sparkplug-Demo
-This is a simple demo of sending MTConnect data using SparkplugB designed as an Agent Module for MTConnect.NET
+This is a simple demo of sending flat MTConnect observation data using SparkplugB designed as an Agent Module for MTConnect.NET
 
+
+## Nuget Packages
 This project references:
-- MTConnect.NET
-- Uns.NET
+- [MTConnect.NET](https://github.com/TrakHound/MTConnect.NET)
+- [Uns.NET](https://github.com/TrakHound/Uns.NET)
+```
+dotnet add package MTConnect.NET-Applications-Agents
+dotnet add package Uns.NET
+```
 
 ## Program.cs
 ```c#
